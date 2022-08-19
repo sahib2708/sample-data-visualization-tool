@@ -8,7 +8,7 @@ def home():
     st.write('## Welcome to the LAS tool sample')
     st.write('### Under progress, developed by **Girija Rathore** & **Sahib Singh Kapoor**')
     st.write('#### Developed under the mentorship of  **Mr. Abhishek Kumar** Sr. Prog.Officer-HO,ONGC,Dehradun')
-    st.write('#### Extremely thankful for the constant support and encouragement of  **Mr. B.S.Bisht** Professor, Petroleum Department,Graphic Era University Dehradun')
+    st.write('#### Extremely thankful for the constant support and encouragement of  **Mr. B.S.Bisht** Professor, Petroleum Department,Graphic Era Deemed to be University Dehradun')
     st.write('''LAS tool is a tool designed using Python and Streamlit to help visualize,showcase LAS files with certain features.''')
     st.write('To begin using the app, load your LAS file using the upload option on the sidebar. Then navigate to the relevant features using the Navigation menu.')
     st.write('\n')
