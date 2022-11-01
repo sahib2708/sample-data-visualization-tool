@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(layout="wide", page_title='LAS tool sample 1')
+st.set_page_config(layout="wide", page_title='LAS tool')
 from PIL import Image
 from load_css import local_css
 import lasio
@@ -46,7 +46,7 @@ def missing_data():
 # Sidebar Options & File Uplaod
 las_file=None
 st.image("ONGC_Logo.png",width=100)
-st.sidebar.write('# Sample LAS Data Tool')
+st.sidebar.write('# LOG Data Tool')
 st.sidebar.write('To begin using the app, load your LAS file using the file upload option below.')
 
 uploadedfile = st.sidebar.file_uploader(' ', type=['.las'])
