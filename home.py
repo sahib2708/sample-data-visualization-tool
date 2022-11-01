@@ -4,9 +4,9 @@ from PIL import Image
 def home():
     
     
-    st.title('LAS tool sample 1')
-    st.write('## Welcome to the LAS tool sample')
-    st.write('### Under progress, developed by **Girija Rathore** & **Sahib Singh Kapoor**')
+    st.title('LAS DATA tool')
+    st.write('## Welcome to the LAS DATA tool ')
+    st.write('### Developed by **Girija Rathore** & **Sahib Singh Kapoor**')
     st.write('#### Developed under the mentorship of  **Mr. Abhishek Kumar** Sr. Prog.Officer-HO,ONGC,Dehradun')
     st.write('#### Extremely thankful for the constant support and encouragement of  **Mr. B.S.Bisht** Professor, Petroleum Department,Graphic Era Deemed to be University Dehradun')
     st.write('''LAS tool is a tool designed using Python and Streamlit to help visualize,showcase LAS files with certain features.''')
