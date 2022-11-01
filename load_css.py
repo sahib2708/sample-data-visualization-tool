@@ -2,6 +2,6 @@
 
 import streamlit as st
 
-def local_css(style.css):
-    with open(style.css) as f:
+def local_css(style):
+    with open(style) as f:
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
